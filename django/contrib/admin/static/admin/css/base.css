@@ -307,6 +307,18 @@ tr.alt {
     background: #fff;
 }
 
+td .icon-yes {
+    color: #47ab45;
+}
+
+td .icon-no {
+    color: #db242a;
+}
+
+td .icon-unknown {
+    color: #8b8b8b;
+}
+
 /* SORTABLE TABLES */
 
 thead th {
@@ -628,21 +640,6 @@ div.breadcrumbs {
 
 /* ACTION ICONS */
 
-.addlink {
-    padding-left: 12px;
-    background: url(../img/icon_addlink.gif) 0 .2em no-repeat;
-}
-
-.changelink {
-    padding-left: 12px;
-    background: url(../img/icon_changelink.gif) 0 .2em no-repeat;
-}
-
-.deletelink {
-    padding-left: 12px;
-    background: url(../img/icon_deletelink.gif) 0 .25em no-repeat;
-}
-
 a.deletelink:link, a.deletelink:visited {
     color: #CC3434;
 }
@@ -697,11 +694,6 @@ a.deletelink:hover {
 
 .object-tools a.viewsitelink, .object-tools a.golink {
     background: #999 url(../img/tooltag-arrowright.png) 95% center no-repeat;
-    padding-right: 26px;
-}
-
-.object-tools a.addlink {
-    background: #999 url(../img/tooltag-add.png) 95% center no-repeat;
     padding-right: 26px;
 }
 

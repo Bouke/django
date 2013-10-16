@@ -13,6 +13,16 @@
     padding-right: .6em;
 }
 
+.dashboard .icon-add {
+    color: #70be6d;
+    font-size: 120%;
+}
+
+.dashboard .icon-change {
+    color: #036;
+    font-size: 120%;
+}
+
 /* RECENT ACTIONS MODULE */
 
 .module ul.actionlist {
