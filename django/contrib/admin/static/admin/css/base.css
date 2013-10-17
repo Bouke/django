@@ -532,19 +532,31 @@ ul.messagelist li {
     font-size: 12px;
     font-weight: bold;
     display: block;
-    padding: 5px 5px 4px 25px;
+    padding: 5px 5px 4px 5px;
     margin: 0 0 3px 0;
     border-bottom: 1px solid #ddd;
     color: #666;
-    background: #dfd url(../img/icon_success.gif) 5px .3em no-repeat;
+}
+
+ul.messagelist li.success {
+    background-color: #dfd;
+}
+ul.messagelist .icon-success {
+    color: #4cab42;
 }
 
 ul.messagelist li.warning {
-    background: #ffc url(../img/icon_alert.gif) 5px .3em no-repeat;
+    background-color: #ffc;
+}
+ul.messagelist .icon-warning {
+    color: #fdbf2d;
 }
 
 ul.messagelist li.error {
-    background: #ffefef url(../img/icon_error.gif) 5px .3em no-repeat;
+    background-color: #ffefef;
+}
+ul.messagelist .icon-error {
+    color: #fc0d1b;
 }
 
 .errornote {
