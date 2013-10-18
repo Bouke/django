@@ -848,3 +848,10 @@ table#change-history tbody th {
     background: #eee url(../img/nav-bg.gif) bottom left repeat-x;
     color: #666;
 }
+
+/* ICONS */
+
+/* symlinked icons */
+.icon-success:before { content: '\e803'; } /* '' */
+.icon-addselection:before { content: '\e809'; } /* '' */
+.icon-clearselection:before { content: '\e80b'; } /* '' */

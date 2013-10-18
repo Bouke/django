@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'django';
-  src: url('../font/django.eot?22688960');
-  src: url('../font/django.eot?22688960#iefix') format('embedded-opentype'),
-       url('../font/django.woff?22688960') format('woff'),
-       url('../font/django.ttf?22688960') format('truetype'),
-       url('../font/django.svg?22688960#django') format('svg');
+  src: url('../font/django.eot?13867006');
+  src: url('../font/django.eot?13867006#iefix') format('embedded-opentype'),
+       url('../font/django.woff?13867006') format('woff'),
+       url('../font/django.ttf?13867006') format('truetype'),
+       url('../font/django.svg?13867006#django') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -14,53 +14,52 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'django';
-    src: url('../font/django.svg?22688960#django') format('svg');
+    src: url('../font/django.svg?13867006#django') format('svg');
   }
 }
 */
-
+ 
  [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "django";
   font-style: normal;
   font-weight: normal;
   speak: none;
-
+ 
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
   margin-right: .2em;
   text-align: center;
   /* opacity: .8; */
-
+ 
   /* For safety - reset parent styles, that can break glyph codes*/
   font-variant: normal;
   text-transform: none;
-
+     
   /* fix buttons height, for twitter bootstrap */
   line-height: 1em;
-
+ 
   /* Animation center compensation - margins should be symmetric */
   /* remove if not needed */
   margin-left: .2em;
-
+ 
   /* you can be more comfortable with increased icons size */
-  font-size: 120%;
-
+  /* font-size: 120%; */
+ 
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
-
+ 
 .icon-search:before { content: '\e808'; } /* '' */
-.icon-clock:before { content: '\e805'; } /* '' */
+.icon-selectall:before { content: '\e809'; } /* '' */
 .icon-no:before { content: '\e804'; } /* '' */
 .icon-add:before { content: '\e800'; } /* '' */
 .icon-error:before { content: '\e80c'; } /* '' */
+.icon-unknown:before { content: '\e807'; } /* '' */
 .icon-yes:before { content: '\e803'; } /* '' */
-.icon-change:before { content: '\e801'; } /* '' */
 .icon-warning:before { content: '\e80a'; } /* '' */
 .icon-delete:before { content: '\e802'; } /* '' */
 .icon-calendar:before { content: '\e806'; } /* '' */
-.icon-unknown:before { content: '\e807'; } /* '' */
-
-/* duplicate icon -- convenience symbol */
-.icon-success:before { content: '\e803'; } /* '' */
+.icon-clock:before { content: '\e805'; } /* '' */
+.icon-clearall:before { content: '\e80b'; } /* '' */
+.icon-change:before { content: '\e801'; } /* '' */

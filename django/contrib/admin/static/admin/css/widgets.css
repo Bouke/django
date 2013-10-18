@@ -62,7 +62,7 @@
 
 .selector-chooser li {
     margin: 0;
-    padding: 3px;
+    padding: 4px 0px 3px 0;
     list-style-type: none;
 }
 
@@ -71,33 +71,13 @@
     margin-top: 0;
 }
 
-.selector-add, .selector-remove {
-    width: 16px;
-    height: 16px;
-    display: block;
-    text-indent: -3000px;
-    overflow: hidden;
+.selector i.icon-addselection, .selector i.icon-clearselection {
+    font-size: 150%;
+    color: #666;
 }
 
-.selector-add {
-    background: url(../img/selector-icons.gif) 0 -161px no-repeat;
-    cursor: default;
-    margin-bottom: 2px;
-}
-
-.active.selector-add {
-    background: url(../img/selector-icons.gif) 0 -187px no-repeat;
-    cursor: pointer;
-}
-
-.selector-remove {
-    background: url(../img/selector-icons.gif) 0 -109px no-repeat;
-    cursor: default;
-}
-
-.active.selector-remove {
-    background: url(../img/selector-icons.gif) 0 -135px no-repeat;
-    cursor: pointer;
+.selector .active i.icon-addselection, .selector .active i.icon-clearselection {
+    color: #94b2d4;
 }
 
 a.selector-chooseall, a.selector-clearall {
@@ -121,24 +101,8 @@ a.active.selector-chooseall:hover, a.active.selector-clearall:hover {
     color: #036;
 }
 
-a.selector-chooseall {
-    background: url(../img/selector-icons.gif) right -263px no-repeat;
-    cursor: default;
-}
-
-a.active.selector-chooseall {
-    background: url(../img/selector-icons.gif) right -289px no-repeat;
-    cursor: pointer;
-}
-
-a.selector-clearall {
-    background: url(../img/selector-icons.gif) left -211px no-repeat;
-    cursor: default;
-}
-
-a.active.selector-clearall {
-    background: url(../img/selector-icons.gif) left -237px no-repeat;
-    cursor: pointer;
+a.active.selector-chooseall .icon-selectall, a.active.selector-clearall .icon-clearall {
+    color: #94b2d4;
 }
 
 /* STACKED SELECTORS */

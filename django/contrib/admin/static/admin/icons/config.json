@@ -71,6 +71,18 @@
       "css": "clock",
       "code": 59397,
       "src": "fontawesome"
+    },
+    {
+      "uid": "8933c2579166c2ee56ae40dc6a0b4dc6",
+      "css": "clearall",
+      "code": 59403,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "94089b37297572e936b0943bcfa041d3",
+      "css": "selectall",
+      "code": 59401,
+      "src": "fontawesome"
     }
   ]
 }

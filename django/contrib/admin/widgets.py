@@ -258,10 +258,12 @@ class RelatedFieldWidgetWrapper(forms.Widget):
             url_params = '?%s=%s' % (TO_FIELD_VAR, self.rel.get_related_field().name)
             # TODO: "add_id_" is hard-coded here. This should instead use the
             # correct API to determine the ID dynamically.
-            output.append('<a href="%s%s" class="add-another" id="add_id_%s" onclick="return showAddAnotherPopup(this);"> '
-                          % (related_url, url_params, name))
-            output.append('<img src="%s" width="10" height="10" alt="%s"/></a>'
-                          % (static('admin/img/icon_addlink.gif'), _('Add Another')))
+            output.append('<a href="%s%s" class="add-another" id="add_id_%s" onclick="return showAddAnotherPopup(this);" title="%s"> '
+                          % (related_url, url_params, name, _('Add Another')))
+            output.append('<i class="icon-add"></i>')
+            output.append('</a>')
+            # output.append('<img src="%s" width="10" height="10" alt="%s"/></a>'
+                          # % (static('admin/img/icon_addlink.gif'), _('Add Another')))
         return mark_safe(''.join(output))
 
     def build_attrs(self, extra_attrs=None, **kwargs):
