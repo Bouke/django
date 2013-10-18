@@ -567,7 +567,12 @@ ul.messagelist .icon-error {
     margin: 0 0 3px 0;
     border: 1px solid #c22;
     color: #c11;
-    background: #ffefef url(../img/icon_error.gif) 5px .38em no-repeat;
+    background-color: #ffefef;
+    text-indent: -15px;
+}
+.errornote .icon-error:before {
+    margin-left: .6em;
+    margin-right: -.6em;
 }
 
 .errornote, ul.errorlist {
